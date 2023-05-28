@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width:1000px;
+  margin: 0 auto;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  color: #252323;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+
+.ql-container {
+  min-height: 200px;
+}
